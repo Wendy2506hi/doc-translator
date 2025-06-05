@@ -18,7 +18,7 @@ from tempfile import NamedTemporaryFile
 import fitz  # PyMuPDF，用于PDF处理
 
 # 替换为你的 OpenAI API Key
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 def translate_text(text, target_language="中文"):
     if not text.strip():
